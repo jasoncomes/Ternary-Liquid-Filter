@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# ternary / https://www.notion.so/highereducation/ternary-6a23288e4f7043918375ec01dc752829
+# ternary / https://github.com/jasoncomes/Ternary-Liquid-Filter
 # If variable exists then output it, otherwise output the alternative.
 # {{ variable | ternary: parameter }}
 
