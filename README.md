@@ -23,7 +23,7 @@
     {% assign default_image = "http://placehold.it/200x200" %}
     
     <div class="featured-image">
-    	<img src="{{ featured_image | ternary: default_image }}">
+      <img src="{{ featured_image | ternary: default_image }}">
     </div>
 
 In this example we will utilize `ternary` to check if a featured image is set for a given page. If it isn't set then we'll supply a fallback image.
@@ -31,7 +31,7 @@ In this example we will utilize `ternary` to check if a featured image is set fo
 ### **Output**
 
     <div class="featured-image">
-    	<img src="http://placehold.it/200x200">
+      <img src="http://placehold.it/200x200">
     </div>
 
 Since we didn't define featured_image in the front matter of about.html it defaulted to the featured_image we set in the `_config.yml` file.
